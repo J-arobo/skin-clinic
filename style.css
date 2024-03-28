@@ -1,20 +1,44 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Abel", sans-serif;
+    text-decoration: none;
 }
 #banner{
     background: linear-gradient(rgba(128, 128, 128, 0.5), #808080), url(images/no-revisions-WvxL8m1AoAE-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 60vh;
 }
 .banner-text{
     text-align: center;
     padding-top: 180px;
 }
 .banner-text p{
-    font-size: 20px;
-}
-.banner-text h3{
     font-size: 30px;
+    color: #C0C0C0;
+}
+.banner-text p1{ 
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+}
+/* menu button */
+.navbar{
+    padding: 2rem;
+    position: fixed;
+    top: 0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar a{
+    font-size: 1.0rem;
+    margin-left: 2rem;
+    color: #FFFFFF;
+}
+.navbar a:hover{
+    color: #808080;
 }

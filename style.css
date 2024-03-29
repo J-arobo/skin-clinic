@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 #banner{
-    background: linear-gradient(rgba(128, 128, 128, 0.5), #808080), url(images/no-revisions-WvxL8m1AoAE-unsplash.jpg);
+    background: linear-gradient(rgba(81, 65, 79, 0.5), #51414F), url(images/no-revisions-WvxL8m1AoAE-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -26,8 +26,8 @@
     color: #FFFFFF;
 }
 /* menu button */
-.navbar{
-    padding: 2rem;
+#sidenav{
+    padding: 1.5rem;
     position: fixed;
     top: 0; right: 0;
     display: flex;
@@ -41,4 +41,126 @@
 }
 .navbar a:hover{
     color: #808080;
+}   
+/* menu icon */
+#menu-btn{ 
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    /* padding: 1rem 1.5rem; */
+    cursor: pointer;
+    display: none;
+}
+
+
+/*-- about us --*/
+#about{
+    width: 100%;
+    padding: 2rem 0;  
+}
+.about-us{
+    text-align: center;
+    padding-bottom: 2rem;
+    box-shadow: 2px 1px  rgba(128, 0, 128, .1);
+   
+
+}
+.about-us p{
+    margin: auto;
+    font-size: 20px;
+    font-weight: normal;
+  /*  color: ; */
+}
+/*-- more info --*/
+.more-info{
+    text-align: center;
+    padding: 2rem;
+}
+.more-info p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+}
+/*-- images-box --*/
+.images-box{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.service{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.service img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.service-info{
+    width: 80%;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width:768px){
+    #menu-btn{
+        display: initial;
+    }
+    #sidenav .navbar{
+        position: absolute;
+        top: 0; right: 0;
+        border-radius: 0;
+        width: 14rem;
+        height: 40rem;
+        margin-top: 3.5rem;
+        /* border: vaar(--border);
+        background: #fff; */
+        transform: scale(0);
+        opacity: 0;
+        transform-origin: top right;
+        transition: none;    
+    }
+    #sidenav .navbar.active{
+        transform: scale(1);
+        opacity: 1;
+        transition: .2s ease-out;
+    }
+    #sidenav .navbar a {
+        font-size: 1rem;
+        display: block;
+        margin-left: 5rem;
+       /* margin: 1rem;*/
+       padding: 0.5rem;
+      
+    }
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%; 
+    }
+
 }

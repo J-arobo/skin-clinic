@@ -103,12 +103,166 @@
 .service-info{
     width: 80%;
     position: absolute;
-    bottom: 40%;
-    left: 50%;
+    bottom: 0%;
+    left: 30%;
     transform: translateX(-50%);
+}
+.service-info1{
+    width: 80%;
+    position: absolute;
+    bottom: 0%;
+    left: 70%;
+    transform: translateX(-50%);
+}
+.service-info button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: transparent;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.service-info1 button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: transparent;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .service{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .service-info{
+        width: 100%;
+        position: absolute;
+        bottom: -2.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .service-info1{
+        width: 100%;
+        position: absolute;
+        bottom: -22rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+/* iphone 12/13/14/15 */
+@media screen and (max-width: 390px){
+    .service-info{
+        width: 100%;
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .service-info1{
+        width: 100%;
+        position: absolute;
+        bottom: -10rem;
+        left: 50%;
+        transform: translateX(-50%);
+    } 
+}
+
+/* iphone 6/7/8 */
+@media screen and (max-width: 414px ) {
+    .service-info1{
+        width: 100%;
+        position: absolute;
+        bottom: -33rem;
+        left: 50%;
+        transform: translateX(-50%);
+    } 
+    
 }
 
 
+/*
+.images-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.service{
+    flex-basis: 90%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.service img{
+    margin-top: 60px;
+    width: 100%;
+    height: 90%;
+    border-radius: 7px;
+}
+.service-info{
+    width: 80%;
+    position: relative;
+    bottom: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.service-info1{
+    width: 80%;
+    position: relative;
+    bottom: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.service-info button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: transparent;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.service-info1 button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: transparent;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: black;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+*/
 
 
 

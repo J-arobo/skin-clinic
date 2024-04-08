@@ -178,7 +178,8 @@
 }
 .contact__box{
     position: relative;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     height: 58px; 
 }
 .contact__input,
@@ -256,7 +257,9 @@
 
 /*========== BREAKPOINTS ==========*/
 
+
 /* Custom, iPhone Retina */
+/*
 @media only screen and (min-width : 320px) {
     #menu-btn{
         display: initial;
@@ -271,6 +274,7 @@
         margin-top: 3.5rem;
         /* border: vaar(--border);
         background: #fff; */
+/*
         transform: scale(0);
         opacity: 0;
         transform-origin: top right;
@@ -282,17 +286,20 @@
         display: block;
         margin-left: 4rem;
         /* margin: 1rem;*/
+/*
         padding: 1rem; 
     }
     
 }
 
  /* Extra Small Devices, Phones */ 
+ /*
  @media only screen and (min-width : 480px) {
     /*
     html{
         font-size: 50%;
     }  */
+    /*
     #menu-btn{
         display: initial;
         padding: 0.5rem 0.1rem;
@@ -306,6 +313,7 @@
         margin-top: 3.5rem;
         /* border: vaar(--border);
         background: #fff; */
+/*
         transform: scale(0);
         opacity: 0;
         transform-origin: top right;
@@ -321,6 +329,7 @@
         display: block;
         margin-left: 4rem;
        /* margin: 1rem;*/
+/*
        padding: 0.5rem;  
     }
  }
@@ -328,11 +337,13 @@
 
 
  /* Small Devices, Tablets */
+/*
  @media only screen and (min-width : 768px) {
     /*
     html{
         font-size: 55;
     }  */
+/*
     #sidenav{
         padding: 1.5rem;
         position: fixed;
@@ -355,6 +366,7 @@
 
 
  /* Medium Devices, Desktops */
+ /*
  @media only screen and (min-width : 992px) {
     #sidenav{
         padding: 1.5rem;
@@ -376,6 +388,7 @@
  }
 
  /* Large Devices, Wide Screens */
+ /*
  @media only screen and (min-width : 1200px) {
     #sidenav{
         padding: 1.5rem;
@@ -395,6 +408,7 @@
     }   
 
  }
+ */
 
 
 
@@ -402,7 +416,7 @@
 
 
 /* For medium devices */
-/*
+
 @media screen and (min-width: 576px) { 
     .contact__container{
         grid-template-columns: 500px;
@@ -414,12 +428,10 @@
       }
     
 }
-*/
 
 
 
 /* for large devices */
-/*
 @media screen and (min-width: 1150px) {
     .contact__container{
         grid-template-columns: 440px 670px;
@@ -428,7 +440,7 @@
       }
       .contact__title{
         /* font-size: var(--h3-font-size); */
-/*
+
         text-align: center;
       }
       .contact__box{
@@ -446,13 +458,13 @@
         padding-right: 20%;
       }
 }
-*/
 
 
 
 
 
-/*
+
+
 @media screen and (max-width: 768px) {
     .service{
         flex-basis: 100%;
@@ -589,7 +601,6 @@
 
 
 /* media queries */
-/*
 @media (max-width:768px){
     #menu-btn{
         display: initial;
@@ -603,7 +614,7 @@
         margin-top: 3.5rem;
         /* border: vaar(--border);
         background: #fff; */
-/*
+
         transform: scale(0);
         opacity: 0;
         transform-origin: top right;
@@ -619,7 +630,7 @@
         display: block;
         margin-left: 5rem;
        /* margin: 1rem;*/
-/*
+
        padding: 0.5rem;
       
     }
@@ -632,4 +643,3 @@
     }
 
 }
-*/

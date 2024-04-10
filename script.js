@@ -34,3 +34,13 @@ if(navClose){
         navMenu.classList.remove('active')
     })
 }
+
+/*=========== REMOVE MENU MOBILE ===========*/
+const navlink = document.querySelectorAll('.nav__link')
+ 
+const linkAction = () =>{
+    const navMenu = document.querySelector('.navbar')
+    // when we click on each nav__link, we remove the active menu class
+    navMenu.classList.remove('active')
+}
+navlink.forEach(n => n.addEventListener('click', linkAction))

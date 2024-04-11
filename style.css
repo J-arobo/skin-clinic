@@ -130,20 +130,14 @@ hr{
 .service img{
     width: 100%;
     height: 100%;
-    border-radius: 7px;
+    border-radius: 50px;
 }
 .service-info{
-    width: 80%;
     position: absolute;
-    bottom: 0%;
-    left: 30%;
     transform: translateX(-50%);
 }
 .service-info1{
-    width: 80%;
     position: absolute;
-    bottom: 0%;
-    left: 70%;
     transform: translateX(-50%);
 }
 .service-info button{
@@ -161,6 +155,10 @@ hr{
     border-radius: 30px;
     cursor: pointer;
 }
+.service-info button:hover{
+    color: #808080;
+    border-color: #808080;
+}
 .service-info1 button{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -175,6 +173,10 @@ hr{
     border-style: solid;
     border-radius: 30px;
     cursor: pointer;
+}
+.service-info1 button:hover{
+    color: #808080;
+    border-color: #808080;
 }
 
 /*========== CONTACT ===========*/
@@ -498,7 +500,7 @@ hr{
 
 
 
-
+/*
 @media screen and (max-width: 768px) {
     .service{
         flex-basis: 100%;
@@ -519,7 +521,9 @@ hr{
         transform: translateX(-50%);
     }
 }
+*/
 /* iphone 12/13/14/15 */
+/*
 @media screen and (max-width: 390px){
     .service-info{
         width: 100%;
@@ -536,6 +540,7 @@ hr{
         transform: translateX(-50%);
     } 
 }
+*/
 
 /* iphone 6/7/8 */
 /*
@@ -715,6 +720,32 @@ hr{
     .more-info p{
         line-height: 25px;
     }
+    /* images */
+    .images-box{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .service{
+        flex-basis: 90%;
+        margin-bottom: 30px;
+    }
+    .service-info{
+        width: 100%;
+        position: absolute;
+        margin-top: -38%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .service-info1{
+        width: 100%;
+        position: absolute;
+        margin-top: -38%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 
@@ -782,6 +813,52 @@ hr{
     .navbar button:hover{
         background-color: white;
         color: #301934;
+    }
+    /* images */
+    .service-info{
+        position: absolute;
+        margin-top: -18%;
+        left: 30%;
+        transform: translateX(-50%);
+    }
+    .service-info button{
+        width: 150px;
+    }
+    .service-info1{
+        position: absolute;
+        margin-top: -18%;
+        left: 70%;
+        transform: translateX(-50%);
+    }
+    .service-info1 button{
+        width: 150px;
+    }
+}
+
+
+/* Medium Devices, Tablets */
+@media screen and (min-width: 1200px){
+    .images-box{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .service{
+        flex-basis: 48%;
+    }
+    .service-info{
+        position: absolute;
+        margin-top: -18%;
+        left: 30%;
+        transform: translateX(-50%);
+    }
+    .service-info1{
+        position: absolute;
+        margin-top: -18%;
+        left: 70%;
+        transform: translateX(-50%);
     }
 
 }

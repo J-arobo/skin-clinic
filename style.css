@@ -839,7 +839,7 @@ hr{
 /* Medium Devices, Tablets */
 @media screen and (min-width: 1200px){
     .images-box{
-        width: 80%;
+        width: 57%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -850,14 +850,14 @@ hr{
     }
     .service-info{
         position: absolute;
-        margin-top: -18%;
-        left: 30%;
+        margin-top: -12.5%;
+        left: 36%;
         transform: translateX(-50%);
     }
     .service-info1{
         position: absolute;
-        margin-top: -18%;
-        left: 70%;
+        margin-top: -12.5%;
+        left: 64.5%;
         transform: translateX(-50%);
     }
 

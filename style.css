@@ -836,6 +836,75 @@ hr{
 }
 
 
+/* home page images only */
+
+@media screen and (min-width: 641px) and (max-width : 768px){
+     /* about */
+     .about-us{
+        padding-top: 3%;
+        text-align: center;
+        padding-bottom: 5%;
+       /* box-shadow: 2px 1px  rgba(128, 0, 128, .1); */
+    } 
+    .about-us p{
+        letter-spacing: 2px;
+    }
+    hr{
+        margin-left: 11%;
+        margin-right: 11%;
+        
+    }
+    .more-info{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    /* images */
+    .images-box{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .service{
+        flex-basis: 48%;
+    }
+    .service-info{
+        position: absolute;
+        margin-top: -18%;
+        left: 30%;
+        transform: translateX(-50%);
+    }
+    .service-info button{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        letter-spacing: 2px;
+        font-size: 97%;
+    }
+    
+    .service-info1{
+        position: absolute;
+        margin-top: -18%;
+        transform: translateX(-50%);
+    }
+    .service-info1 button{
+        color: #301934;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        letter-spacing: 2px;
+        font-size: 97%;
+    }
+    
+}
+
+
 /* Medium Devices, Tablets */
 @media screen and (min-width: 1200px){
     .images-box{
@@ -860,8 +929,22 @@ hr{
         left: 64.5%;
         transform: translateX(-50%);
     }
+    /* about us - main page */
+    hr{
+        margin-left: 22.5%;
+        margin-right: 22.5%;
+        
+    }
+    .more-info{
+        margin-left: 22%;
+        margin-right: 22%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
 
 }
+
+
 
 @media (max-width:450px){
 

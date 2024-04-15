@@ -130,7 +130,7 @@ hr{
 .service img{
     width: 100%;
     height: 100%;
-    border-radius: 50px;
+    /* border-radius: 50px; */
 }
 .service-info{
     position: absolute;
@@ -630,10 +630,6 @@ hr{
 
 
 
-
-
-
-
 /* media queries */
 @media (max-width:768px){
     .nav__toggle{
@@ -720,36 +716,11 @@ hr{
     .more-info p{
         line-height: 25px;
     }
-    /* images */
-    .images-box{
-        width: 90%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin: auto;
-    }
-    .service{
-        flex-basis: 90%;
-        margin-bottom: 30px;
-    }
-    .service-info{
-        width: 100%;
-        position: absolute;
-        margin-top: -38%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .service-info1{
-        width: 100%;
-        position: absolute;
-        margin-top: -38%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
 }
 
 
 
+/* tablets and above */
 @media screen and (min-width: 769px){
     /* banner */
     #banner{
@@ -836,8 +807,58 @@ hr{
 }
 
 
+
 /* home page images only */
 
+/* below tablets */
+@media (max-width:640px){
+    /* images */
+    .images-box{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .service{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .service-info{
+        width: 100%;
+        position: absolute;
+        margin-top: -36%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .service-info button{
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        letter-spacing: 2px;
+        font-size: 97%;
+    }
+    .service-info1{
+        width: 100%;
+        position: absolute;
+        margin-top: -34%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .service-info1 button{
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        letter-spacing: 2px;
+        font-size: 97%;
+    }
+
+
+}
+
+/* mini phones && tablets */
 @media screen and (min-width: 641px) and (max-width : 768px){
      /* about */
      .about-us{
@@ -850,32 +871,33 @@ hr{
         letter-spacing: 2px;
     }
     hr{
-        margin-left: 11%;
-        margin-right: 11%;
+        margin-left: 5%;
+        margin-right: 5%;
         
     }
     .more-info{
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 4%;
+        margin-right: 4%;
         margin-top: 3%;
         margin-bottom: 3%;
     }
 
     /* images */
     .images-box{
-        width: 80%;
+        width: 90%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         margin: auto;
     }
     .service{
-        flex-basis: 48%;
+        flex-basis: 46%;
     }
     .service-info{
+        width: 56%;
         position: absolute;
         margin-top: -18%;
-        left: 30%;
+        left: 27%;
         transform: translateX(-50%);
     }
     .service-info button{
@@ -888,12 +910,13 @@ hr{
     }
     
     .service-info1{
+        width: 56%;
         position: absolute;
         margin-top: -18%;
+        left: 72%;
         transform: translateX(-50%);
     }
     .service-info1 button{
-        color: #301934;
         padding-left: 3%;
         padding-right: 3%;
         padding-top: 10px;

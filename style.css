@@ -292,6 +292,17 @@ hr{
     top: -16px;
 }
 
+
+/* ----------- Pages ----------- */
+/* Services page */
+#services__banner{
+     /* background: linear-gradient(rgba(81, 65, 79, 0.5), #51414F); */
+    background-image: linear-gradient(rgba(81,72,100,0.7), rgba(81,72,100,0.7)), url(assets/images/suad-kamardeen-khewjy5l4Zo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
 /*========== BREAKPOINTS ==========*/
 
 
@@ -724,7 +735,7 @@ hr{
 @media screen and (min-width: 769px){
     /* banner */
     #banner{
-        background: linear-gradient(rgba(81, 65, 79, 0.5), #51414F), url(images/no-revisions-WvxL8m1AoAE-unsplash.jpg);
+        background: linear-gradient(rgba(81, 65, 79, 0.5), #51414F), url(assets/images/no-revisions-WvxL8m1AoAE-unsplash.jpg);
         background-size: cover;
         background-position: center;
         height: 80vh;

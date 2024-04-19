@@ -387,6 +387,26 @@ hr{
     color: purple;
 }
 
+/* Doctors about */
+#banner__doc{
+    background: linear-gradient(rgba(81, 65, 79, 0.5), #51414F), url(assets/images/desk2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+.banner-doc-text{
+    text-align: center;
+    padding-top: 30vh;
+}
+.banner-doc-text p{
+    font-size: 20px;
+    color: #C0C0C0;
+}
+.doctor__image{
+    margin-top: 30px;
+}
+
+
 
 
 
@@ -855,6 +875,46 @@ hr{
         font-size: 22px;
         cursor: pointer;
     }
+    /* Doctors info */
+    .doctor__image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .doctor__image img{
+        height: 100%;
+        width: 90%;
+       /* margin: 0 auto; */
+       /* display: block; */
+    }
+    .doctor__info{
+        margin-top: 30px;
+    }
+    .doctor__info h1{
+        font-size: 16px;
+        text-align: center;
+        color: #4d4d4d;
+    }
+    .doctor__info p{
+        text-align: center;
+        margin-left: 7%;
+        margin-right: 7%;
+        font-size: 15px;
+        color: #808080;
+    }
+    .doctor__orgs{
+        text-align: center;
+    }
+    .doctor__orgs ul{
+        font-size: 15px;
+        color: #808080;
+    }
+    .doctor__info h2{
+        font-size: 16px;
+        text-align: center;
+        color: #4d4d4d;
+    }
+    
 }
 
 

@@ -406,6 +406,22 @@ hr{
     margin-top: 30px;
 }
 
+/* Location */
+#banner__location{
+    background: linear-gradient(rgba(81, 65, 79, 0.5), #51414F), url(assets/images/location.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+.banner-text-location{
+    text-align: center;
+    padding-top: 20vh;
+}
+.banner-text-location p{
+    font-size: 20px;
+    color: #C0C0C0;
+}
+
 
 
 
@@ -914,6 +930,22 @@ hr{
         text-align: center;
         color: #4d4d4d;
     }
+
+    /* location */
+    #location{
+        margin-top: 40px;
+    }
+    .location_dtls{
+        text-align: center;
+    }
+    .location_dtls h1{
+        font-size: 20px;
+    }
+    .location_dtls p{
+        font-size: 15px;
+    }
+
+
     
 }
 

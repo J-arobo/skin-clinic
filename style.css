@@ -411,17 +411,19 @@ hr{
     background: linear-gradient(rgba(81, 65, 79, 0.5), #51414F), url(assets/images/location.jpeg);
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 60vh;
 }
 .banner-text-location{
     text-align: center;
-    padding-top: 20vh;
+    padding-top: 30vh;
 }
 .banner-text-location p{
     font-size: 20px;
     color: #C0C0C0;
 }
-
+#googlemaps{
+    margin-top: 40px;
+}
 
 
 
@@ -931,7 +933,7 @@ hr{
         color: #4d4d4d;
     }
 
-    /* location page*/
+    /* location page */
     #location{
         margin-top: 40px;
     }
@@ -944,11 +946,31 @@ hr{
     .location_dtls p{
         font-size: 15px;
     }
+    .gmap__frame{
+        width: 100%;
+        /* height: 60vh; */
+        display: flex;
+        justify-content: center;     
+        margin-bottom: 60px;
+    }
+    .gmap__frame iframe{
+       /* height: 450px; */
+        width: 90%;
+    }
 
 
     
 }
 
+
+/* only for background covers */
+@media screen and (min-width: 640px){
+    /* location cover */
+    .banner-text-location p{
+        font-size: 60px;
+    }
+
+}
 
 
 /* tablets and above */
@@ -1035,7 +1057,38 @@ hr{
     .service-info1 button{
         width: 150px;
     }
+    /* location page */
+    .banner-text-location p{
+        font-size: 60px;
+    }
+    .banner-text-location{
+        font-size: 70px;
+    }
+    #location{
+        margin-top: 40px;
+    }
+    .location_dtls{
+        text-align: center;
+    }
+    .location_dtls h1{
+        font-size: 20px;
+    }
+    .location_dtls p{
+        font-size: 15px;
+    }
+    .gmap__frame{
+        width: 100%;
+        /* height: 60vh; */
+        display: flex;
+        justify-content: center;     
+        margin-bottom: 60px;
+    }
+    .gmap__frame iframe{
+       /* height: 450px; */
+        width: 90%;
+    }
 }
+
 
 
 
@@ -1158,6 +1211,23 @@ hr{
     
 }
 
+
+
+/* for googlemaps frame */
+@media screen and (min-width: 1025px){
+    .gmap__frame{
+        width: 100%;
+        /* height: 60vh; */
+        display: flex;
+        justify-content: center;     
+        margin-bottom: 60px;
+    }
+    .gmap__frame iframe{
+        /* height: 450px; */
+        width: 60%;
+    }
+
+}
 
 /* Medium Devices, Tablets */
 @media screen and (min-width: 1200px){

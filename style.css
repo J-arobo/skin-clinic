@@ -360,7 +360,7 @@ hr{
 #services h1{
     margin-top: 20px;
     font-size: 20px;
-    letter-spacing: 1.5px;
+    /* letter-spacing: 1.5px; */
     margin-bottom: 30px;
 }
 .services{
@@ -969,6 +969,52 @@ hr{
     .banner-text-location p{
         font-size: 60px;
     }
+    /* Doctors' page */
+    .doc_line_break hr{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .doctor__image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .doctor__image img{
+        margin-top: 35px;
+        height: 100%;
+        width: 60%;
+       /* margin: 0 auto; */
+       /* display: block; */
+    }
+    .doctor__info{
+        margin-top: 30px;
+    }
+    .doctor__info h1{
+        font-size: 16px;
+        text-align: center;
+        color: #4d4d4d;
+    }
+    .doctor__info p{
+        text-align: center;
+        margin-left: 22%;
+        margin-right: 22%;
+        font-size: 15px;
+        color: #808080;
+    }
+    .doctor__orgs{
+        text-align: center;
+    }
+    .doctor__orgs ul{
+        font-size: 15px;
+        color: #808080;
+    }
+    .doctor__info h2{
+        font-size: 16px;
+        text-align: center;
+        color: #4d4d4d;
+        margin-left: 22%;
+        margin-right: 22%;
+    }
 
 }
 
@@ -1057,6 +1103,55 @@ hr{
     .service-info1 button{
         width: 150px;
     }
+
+    /* Doctors' page */
+    .doc_line_break hr{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .doctor__image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .doctor__image img{
+        margin-top: 35px;
+        height: 100%;
+        width: 60%;
+       /* margin: 0 auto; */
+       /* display: block; */
+    }
+    .doctor__info{
+        margin-top: 30px;
+    }
+    .doctor__info h1{
+        font-size: 16px;
+        text-align: center;
+        color: #4d4d4d;
+    }
+    .doctor__info p{
+        text-align: center;
+        margin-left: 22%;
+        margin-right: 22%;
+        font-size: 15px;
+        color: #808080;
+    }
+    .doctor__orgs{
+        text-align: center;
+    }
+    .doctor__orgs ul{
+        font-size: 15px;
+        color: #808080;
+    }
+    .doctor__info h2{
+        font-size: 16px;
+        text-align: center;
+        color: #4d4d4d;
+        margin-left: 22%;
+        margin-right: 22%;
+    }
+    
+    
     /* location page */
     .banner-text-location p{
         font-size: 60px;
@@ -1087,6 +1182,7 @@ hr{
        /* height: 450px; */
         width: 90%;
     }
+
 }
 
 
@@ -1226,6 +1322,64 @@ hr{
         /* height: 450px; */
         width: 60%;
     }
+
+}
+
+/* doctors' picture extra large device */
+@media screen and (min-width: 1090px){
+    /* Doctors' page */
+.doc_line_break{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doc_line_break hr{
+    width: 650px;
+}
+.doctor__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doctor__image img{
+    margin-top: 35px;
+    height: 435px;
+    width: 650px;
+   /* margin: 0 auto; */
+   /* display: block; */
+}
+.doctor__info{
+    margin-top: 30px;
+   /* justify-content: center;
+    align-items: center; */
+}
+.doctor__info h1{
+    font-size: 16px;
+    text-align: center;
+    color: #4d4d4d;
+}
+.doctor__info p{
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    /* width: 650px;*/
+    font-size: 15px;
+    color: #808080;
+}
+.doctor__orgs{
+    text-align: center;
+}
+.doctor__orgs ul{
+    font-size: 15px;
+    color: #808080;
+}
+.doctor__info h2{
+    font-size: 16px;
+    text-align: center;
+    color: #4d4d4d;
+    margin-left: 22%;
+    margin-right: 22%;
+}
 
 }
 

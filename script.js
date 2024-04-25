@@ -58,3 +58,33 @@ function showMenu(){
 function hideMenu(){
     navLinks.style.right = "-200px";
 }
+
+
+/*=========== EMAIL JS ===========*/
+const contactForm = document.getElementById('contact-form')
+    contactMessage = document.getElementById('contact-message')
+
+const sendEmail = (e) =>{
+    e.preventDefaut()
+
+    // serviceID - templateID - #form - publicKey
+    emailjs.sendForm('service_m8tu8sa','template_w1b2s33','#contact-form','5Y4xXmdU_Vnj592Kx')
+    .then(() =>{
+        //Show sent message
+        contactMessage.textContent = 'Message sent successfully ✅'
+
+        //Remove message after five seconds
+        setTimeout(() =>{
+            contactMessage.textContent = ''
+        }, 5000)
+
+        //Clear input fields
+        contactForm.reset()
+    }, () => {
+        //show error message
+        contactMessage.textContent = 'Message not sent (service error) ❌'
+    })
+
+}
+
+contactForm.addEventListener('submit', sendEmail)

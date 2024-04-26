@@ -61,14 +61,14 @@ function hideMenu(){
 
 
 /*=========== EMAIL JS ===========*/
-const contactForm = document.getElementById('contact-form')
+const contactForm = document.getElementById('contact-form'), 
     contactMessage = document.getElementById('contact-message')
 
 const sendEmail = (e) =>{
     e.preventDefaut()
 
     // serviceID - templateID - #form - publicKey
-    emailjs.sendForm('service_m8tu8sa','template_w1b2s33','#contact-form','5Y4xXmdU_Vnj592Kx')
+    emailjs.sendForm('service_m8tu8sa','template_135uq1o','#contact-form','5Y4xXmdU_Vnj592Kx')
     .then(() =>{
         //Show sent message
         contactMessage.textContent = 'Message sent successfully ✅'
@@ -80,11 +80,11 @@ const sendEmail = (e) =>{
 
         //Clear input fields
         contactForm.reset()
-    }, () => {
+
+    }, () =>{
         //show error message
         contactMessage.textContent = 'Message not sent (service error) ❌'
     })
-
 }
 
 contactForm.addEventListener('submit', sendEmail)

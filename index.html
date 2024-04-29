@@ -15,6 +15,16 @@
     <script src="https://kit.fontawesome.com/e7338c2fe5.js" crossorigin="anonymous"></script>
     <!--=========== REMIXICONS =============-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "5Y4xXmdU_Vnj592Kx",
+      });
+   })();
+</script>
     
     
 </head>
@@ -123,13 +133,13 @@
                         </div>
 
                         <div class="contact__box contact__area">
-                            <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                            <textarea type="text" name="user_message" class="contact__input" id="message" required placeholder="Message"></textarea>
                             <label for="message" class="contact__label">Message</label>
                         </div>
                         
                         <p class="contact__message" id="contact-message"></p>
 
-                        <button type="submit" class="contact__button button">
+                        <button type="submit" onclick="sendEmail()" class="contact__button button">
                             <i class="ri-send-plane-line"></i>SEND
                         </button>
 
@@ -143,10 +153,7 @@
 
    
 
-    <!--=========== EMAIL JS ===========-->
-    <script
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
+    
     <!--=========== MAIN JS ===========-->
     <script src="script.js"></script>
 </body> 

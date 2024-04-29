@@ -61,6 +61,39 @@ function hideMenu(){
 
 
 /*=========== EMAIL JS ===========*/
+
+const contactForm = document.getElementById('contact-form'), 
+    contactMessage = document.getElementById('contact-message')
+
+function sendEmail() {
+    let parms = {
+        // one of the columns has to be removed - hence the name column
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        number : document.getElementById("number").value,
+        subject : document.getElementById("subject").value,
+        message : document.getElementById("message").value,    
+     }
+
+     emailjs.send("service_m8tu8sa", "template_135uq1o",parms).then(()=>{
+        //Show sent message
+        contactMessage.textContent = 'Message sent successfully ✅'
+
+        //Remove message after five seconds
+        setTimeout(() =>{
+            contactMessage.textContent = ''
+        }, 5000)
+
+        //Clear input fields
+        contactForm.reset() 
+     }, () =>{
+        //show error message
+        contactMessage.textContent = 'Message not sent (service error) ❌'
+     })
+}
+contactForm.addEventListener('submit', sendEmail)
+
+/*
 const contactForm = document.getElementById('contact-form'), 
     contactMessage = document.getElementById('contact-message')
 
@@ -88,3 +121,4 @@ const sendEmail = (e) =>{
 }
 
 contactForm.addEventListener('submit', sendEmail)
+*/

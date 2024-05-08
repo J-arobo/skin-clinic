@@ -304,12 +304,13 @@ hr{
 }
 .navv{
     display: flex;
-    padding: 2% 6%;
+    padding: 8px 20px;
+    /* padding: 10px 30px; */
     justify-content: space-between;
     align-items: center;
-
 }
 .navv img{
+    margin-top: 20%;
     height: 50px;
     width: 50px; 
 }
@@ -1102,6 +1103,18 @@ hr{
     }
     .service-info1 button{
         width: 150px;
+    }
+    /* Services Page */
+    .navv img{
+        /* margin-top: 5%; */
+        height: 80px;
+        width: 80px; 
+    }
+    .navv{
+        display: flex;
+        padding: 15px 45px;
+        justify-content: space-between;
+        align-items: center;
     }
 
     /* Doctors' page */

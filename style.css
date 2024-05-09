@@ -390,7 +390,7 @@ hr{
 
 /* Doctors about */
 #banner__doc{
-    background: linear-gradient(rgba(81, 65, 79, 0.5), #51414F), url(assets/images/desk2.jpeg);
+    background: linear-gradient(rgba(81, 65, 79, 0.5), #51414F), url(assets/images/sarah-dorweiler-2s9aHF4eCjI-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -424,6 +424,22 @@ hr{
 }
 #googlemaps{
     margin-top: 40px;
+}
+
+/* contact us */
+#banner__contactus{
+    background: linear-gradient(rgba(81, 65, 79, 0.5), #51414F), url(assets/images/johan-mouchet-pDPCh2hiGKI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+.banner-text-contactus{
+    text-align: center;
+    padding-top: 30vh;
+}
+.banner-text-contactus p{
+    font-size: 20px;
+    color: #C0C0C0;
 }
 
 
@@ -957,6 +973,25 @@ hr{
     .gmap__frame iframe{
        /* height: 450px; */
         width: 90%;
+    }
+
+
+    /* contact us page */
+    #contactus{
+        margin-top: 60px;
+    }
+    .contactus_dtls{
+        text-align: center;
+    }
+    .contactus_dtls h1{
+        font-size: 18px;
+        color: grey;
+    }
+    .contactus_dtls h2{
+        font-size: 18px;
+    }
+    .contactus_dtls p{
+        font-size: 15px;
     }
 
 

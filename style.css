@@ -178,6 +178,31 @@ hr{
     color: #808080;
     border-color: #808080;
 }
+/*=========== APPOINTMENT =========*/
+#appointment{
+    background-color: white;
+}
+.appointment__btn{
+    text-align: center;
+}
+.appointment__btn button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: white;
+}
+.appointment__btn button:hover{
+    background-color: black;
+    color: white;
+}
 
 /*========== CONTACT ===========*/
 .contact{
@@ -387,6 +412,32 @@ hr{
 .services__extra .colored-part{
     color: purple;
 }
+/* Bottom Section */
+.bottom_location{
+    height: 80px;
+    text-align: center;
+    background-color: #D3D3D3;
+}
+.bottom_location i{
+    font-size: 2.5rem;
+    position: relative;
+    top: 40%;
+}
+#developers_section{
+    background-color: black;
+}
+.developer{
+    text-align: center;
+}
+.developer p{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    color: grey;
+}
+
+
 
 /* Doctors about */
 #banner__doc{
@@ -875,6 +926,14 @@ hr{
     .more-info p{
         line-height: 25px;
     }
+    /* bottom section */
+    /* 
+    #bottom{
+        height: 100px;
+    }
+    */
+
+
 
     /* Services page */
     .text-box h1{
@@ -1139,6 +1198,13 @@ hr{
     .service-info1 button{
         width: 150px;
     }
+    /*
+    #bottom{
+        height: 80px;
+    }
+    */
+
+    
     /* Services Page */
     .navv img{
         /* margin-top: 5%; */

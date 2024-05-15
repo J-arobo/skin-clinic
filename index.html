@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AziAma Skin Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/e7338c2fe5.js" crossorigin="anonymous"></script>
+    <!--=========== REMIXICONS =============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "5Y4xXmdU_Vnj592Kx",
+      });
+   })();
+</script>
+    
+    
+</head>
+<body>
+    <!--========= header ==========-->
+    <!-- menu icon -->
+    <div id="sidenav">
+        <nav class="navbar">
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <ul>
+                <a href="index.html" class="nav__link">HOME</a>
+                <a href="Dr Jean N.html" class="nav__link">DR JEAN N</a>
+                <a href="services.html" class="nav__link">SERVICES</a>
+                <a href="#PATIENT PORTAL" class="nav__link">PATIENT PORTAL</a>
+                <a href="location.html" class="nav__link">LOCATION</a>
+                <button href="#CONTACT" class="nav__link">CONTACT US</button>
+            </ul>
+        </nav>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-fill"></i>
+        </div>
+
+        <!-- <div id="menu-btn" class="fa-sharp fa-solid fa-bars"></div> -->
+        
+        
+    </div>
+
+    <!-- title -->
+    <section id="banner">
+        <div class="banner-text">
+            <P>WELCOME TO</P>
+            <p1>AZIAMA SKIN CLINIC</p1>
+            <P>KISUMU</P> 
+    
+        </div>
+    </section>
+
+
+    <!--========= about ==========-->
+    <section id="about">
+        <div class="about-us">
+            <p>ABOUT US: AZIAMA SKIN CLINIC KSM</p>
+        </div>
+    
+    <!--========== line ===========-->
+        <hr>
+
+        <div class="more-info">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum commodi placeat obcaecati,
+                in, tempora odio corrupti officiis dolor illo dolorem libero veniam corporis. Dolorum atque 
+                aspernatur eum obcaecati optio aut!
+            </p>
+            
+        </div>
+
+        <!-- images --> 
+        <div class="images-box">
+            <div class="service">
+                <img src="assets/images/services2.jpeg">
+                <div class="service-info">
+                    <button> SERVICES</button>
+                </div>
+            </div>
+            <div class="service">
+                <img src="assets/images/maps.png" >
+                <div class="service-info1">
+                    <button> LOCATION</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--========== line ===========-->
+    <hr>
+
+    <!--=========== REQUEST AN APPOINTMENT ===========-->
+    <section id="appointment">
+        <div class="appointment__btn">
+            <button href="#CONTACT" class="contact__apnmnt"> REQUEST AN APPOINTMENT</button>
+        </div>
+
+    </section>
+
+    <!-- <hr> -->
+    <!-- another hr line here -->
+  <!--==========Contact ===========-->
+
+  <!-- 
+    <section class="contact section" id="contact">
+        <div class="contact__container grid">
+             <div class="contact__mail">
+                <h2 class="contact__title">
+                    Request An Appointment
+                </h2>
+
+                <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__group">
+                        <div class="contact__box">
+                            <input type="text" name="user_name" class="contact__input" id="name" required placeholder="Name">
+                            <label for="name" class="contact__label">Name</label>
+                        </div>
+
+                        <div class="contact__box">
+                            <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                            <label for="email" class="contact__label">Email Address</label>
+                        </div>
+
+                        <div class="contact__box">
+                            <input type="tel" name="user_number" class="contact__input" id="number" required placeholder="Number">
+                            <label for="number" class="contact__label">Number</label>
+                        </div>
+
+                        <div class="contact__box" contact__area>
+                            <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
+                            <label for="subject" class="contact__label">Subject</label>
+                        </div>
+
+                        <div class="contact__box contact__area">
+                            <textarea type="text" name="user_message" class="contact__input" id="message" required placeholder="Message"></textarea>
+                            <label for="message" class="contact__label">Message</label>
+                        </div>
+                        
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" onclick="sendEmail()" class="contact__button button">
+                            <i class="ri-send-plane-line"></i>SEND
+                        </button>
+
+                    </div>
+                </form> 
+            </div>
+            </div>
+    </section>
+    -->
+
+    <!--============= BOTTOM ============-->
+    <section id="bottom">
+        <div class="bottom_location">
+            <i class="ri-map-pin-2-line"></i>
+        </div>
+        
+
+    </section>
+
+
+    <!--============ Developers Section ============-->
+    <section id="developers_section">
+        <div class="developer">
+            <p> © All Rights Reserved By AziAma Skin Clinic & Philip Joseph.</p>
+
+        </div>
+
+    </section>
+
+
+
+   
+
+    
+    <!--=========== MAIN JS ===========-->
+    <script src="script.js"></script>
+</body> 
+</html>

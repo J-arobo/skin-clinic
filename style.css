@@ -493,6 +493,7 @@ hr{
     color: #C0C0C0;
 }
 
+
 /* Login options */
 #banner_login{
     background-image: url(assets/images/purple_wallpaper2.jpeg);
@@ -506,8 +507,8 @@ hr{
 .login_sec{
     padding-top: 19vh;
     text-align: center;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     border-radius: 20px;
 }
 .login_logo{
@@ -528,11 +529,11 @@ hr{
 .loggingin{
     
 }
-.practice_staff{
+.patients{
     margin-top: 40px;
-    padding-top: 10px;
+    padding-top: 12px;
     padding-bottom: 8px;
-    background-color: grey;
+    background-color: #088F8F;
     display: flex;
     /* padding: 8px 10px; */
     /* padding: 10px 30px; */
@@ -542,13 +543,56 @@ hr{
     margin-right: 5%;
     font-size: 20px;
     border-radius: 20px;
+    cursor: pointer;
+}
+.patients:hover{
+    background-color: #023020;
+}
+.patients a{
+    margin-left: 6%;
+    font-size: 25px;
+    color: white;
+}
+.patients p{
+    margin-left: 15%;
+    color: white;
+}
+.login_logo h2{
+    margin-top: 3%;
+    color: grey;
+}
+/* staff */
+.practice_staff{
+    margin-top: 3%;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    background-color: #C1E1C1;
+    display: flex;
+    /* padding: 8px 10px; */
+    /* padding: 10px 30px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.practice_staff:hover{
+    background-color: #9FE2BF;
 }
 .practice_staff a{
     margin-left: 6%;
     font-size: 25px;
+    color: #023020;
 }
 .practice_staff p{
-    margin-left: 20%;
+    margin-left: 15%;
+    color: #023020;
+}
+.login_logo h2{
+    margin-top: 3%;
+    color: grey;
 }
 
 
@@ -714,9 +758,52 @@ hr{
 
 
 
+/* Logging in section, medium devices */
+@media screen and (min-width: 500px) {
+    .login_sec{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .patients{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .practice_staff{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    
+}
+@media screen and (min-width: 900px) {
+    .login_logo{
+        width: 60vh;
+
+    }
+    .login_sec{
+        display: flex;
+        justify-content: center;
+        /*
+        margin-left: 12%;
+        margin-right: 12%;
+        */
+    }
+    .patients p{
+        margin-left: 29%;
+    }
+    .practice_staff p{
+        margin-left: 29.5%;
+    }
+    .patients a{
+        margin-left: 3.5%;
+    }
+    .practice_staff a{
+        margin-left: 3.5%;
+    }
+}
+
+
 
 /* For medium devices */
-
 @media screen and (min-width: 576px) { 
     .contact__container{
         grid-template-columns: 500px;
